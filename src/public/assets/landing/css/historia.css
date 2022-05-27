@@ -1,0 +1,145 @@
+/*---Historia---*/
+
+.header{
+    color: white;
+    background-image:  url('../imagenes/cohesantiguos.jpg' );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    font-size: 70px;
+}
+.page-header{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.artic1{
+    font-size: 19px;
+    text-align: justify;
+}
+
+.imgf{
+    max-height: 480px;
+    max-width: 480px;
+}
+.imgt{
+    max-height: 380px;
+    max-width: 380px;
+}
+.hey{
+    text-align: center;
+    font-size: 16px;
+}
+
+/*--footer--*/
+
+footer{
+    background-color: black;
+    position: relative;
+    padding: 55px 0 20px 0;
+    border: 9px solid red;
+    border-top-left-radius: 75px;
+    border-bottom: none;
+    border-right: none;
+}
+.footer-logo{
+    max-width: 225px;
+    max-height: 210px;
+    padding-top: 90px;
+}
+footer .footer-widget{
+    color: white;
+}
+footer h3{
+    font-family: 'Orbitron', sans-serif;
+}
+.contact-info{
+    font-size: 16px;
+}
+
+.footer-menu {
+    position: relative;
+}
+.footer-menu .menu {
+    text-align: center;
+}
+.menu a{
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ffffff;
+}
+.footer-menu .menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.footer-menu .menu a:hover {
+    color: #FF6F61;
+}
+
+a:link{
+    text-decoration: none;
+    transition: all 313ms ease-out;
+}
+
+/*----Policy-----*/
+.modal{
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .col-md-6 img{
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .col-md-6 img{
+        height: 208px;
+    }
+    .header{
+        font-size: 50px;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .artic1{
+        font-size: 18px;
+    }
+    .imgf{
+        max-width: 285px;
+        max-height: 285px;
+    }
+    .imgt{
+        max-width: 285px;
+        max-height: 285px;
+    }
+    .hey{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 425px){
+    footer{
+    border: 0px;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px){
+    footer{
+    border: 0px;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    }
+    .header{
+        background-size: 100% 60%;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    
+}

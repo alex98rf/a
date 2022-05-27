@@ -1,0 +1,214 @@
+.pilotos{
+    font-family: 'Orbitron', sans-serif;
+    border: black solid 10px;
+    border-top-right-radius: 45px;
+    border-bottom: none;
+    border-left: none;
+}
+.pilotos h1{
+    font-size: 55px;
+    margin-top: 20px;
+}
+.piloto{
+    background-color: #eeeeee;
+    border-radius: 9px;
+}
+
+.piloto p{
+    padding-top: 55px;
+    font-size: 23px;
+}
+.piloto img{
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    max-width: 647px;
+    max-height: 100%;
+}
+
+#competidores  .col-lg-3:hover{
+    transform: scale(1.03);
+}
+
+a:link,a:visited{
+    color:black;
+    text-decoration: none;
+    transition: all 307ms ease-out;
+}
+
+#competidores .col-lg-3{
+    padding: 10px;
+    margin-bottom: 25px;
+}
+span{
+    font-family: 'Orbitron', sans-serif;
+}
+.nombre{
+    font-size: 16px;
+}
+.apellido{
+    font-size: 22px;
+}
+#competidores .banderas{
+    float: right;
+    width: 50px;
+    height: 25px;
+    margin-top: 12px;
+}
+#competidores .pilotoos{
+    width: 220px;
+    height: 185px;
+    display: block;
+    margin: auto;
+}
+
+
+.mercedes{
+    border: 2px solid turquoise;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.mercedes a:hover{
+    color: turquoise;
+}
+.redb{
+    border: 2px solid blue;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.redb a:hover{
+    color: blue;
+}
+.McLaren{
+    border: 2px solid orangered;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.McLaren a:hover{
+    color: orangered;
+}
+.aston{
+    border: 2px solid green;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.aston a:hover{
+    color: green;
+}
+.Alpino{
+    border: 2px solid turquoise;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.Alpino a:hover{
+    color: turquoise;
+}
+.Ferrari{
+    border: 2px solid red;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.Ferrari a:hover{
+    color: red;
+}
+.alpha{
+    border: 2px solid gray;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.alpha a:hover{
+    color: grey;
+}
+.alphar{
+    border: 2px solid brown;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.alphar a:hover{
+    color: brown;
+}
+.hass{
+    border: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.hass a:hover{
+    color: black;
+}
+.williams{
+    border: 2px solid blue;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    border-left: none;
+}
+.williams a:hover{
+    color: blue;
+}
+
+/*--footer--*/
+
+footer{
+    background-color: black;
+    position: relative;
+    padding: 55px 0 20px 0;
+    border: 9px solid red;
+    border-top-left-radius: 75px;
+    border-bottom: none;
+    border-right: none;
+}
+.footer-logo{
+    max-width: 225px;
+    max-height: 210px;
+    padding-top: 90px;
+}
+footer .footer-widget{
+    color: white;
+}
+footer h3{
+    font-family: 'Orbitron', sans-serif;
+}
+.contact-info p{
+    font-size: 16px;
+}
+
+
+.footer-menu {
+    position: relative;
+}
+.footer-menu .menu {
+    text-align: center;
+}
+.menu a{
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ffffff;
+}
+.footer-menu .menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.footer-menu .menu a:hover {
+    color: #FF6F61;
+}
+
+@media only screen and (max-width: 425px){
+    footer{
+    border: 0px;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    }
+    
+}
+
+

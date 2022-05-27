@@ -1,0 +1,158 @@
+header h2{
+    font-family: 'Orbitron', sans-serif;
+}
+.gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        90deg, 
+        rgba(2,0,36,1) 0%, 
+        rgba(0,0,0,1) 34%,
+        rgba(255,0,0,1) 100%);
+}
+
+
+.presentation{
+    margin-top: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 1.25rem;
+    color: white;
+}
+.presentacion{
+    background: #e3e4e5;
+}
+.articulo{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.20rem;
+}
+
+video{
+    margin-left: -14.1px;
+}
+#carousel{
+    margin-right: -12px;
+    margin-left: 1px;
+}
+
+
+/*--footer--*/
+
+footer{
+    background-color: black;
+    position: relative;
+    padding: 55px 0 20px 0;
+    border: 9px solid red;
+    border-top-left-radius: 75px;
+    border-bottom: none;
+    border-right: none;
+}
+.footer-logo{
+    max-width: 225px;
+    max-height: 210px;
+    padding-top: 90px;
+}
+footer .footer-widget{
+    color: white;
+}
+footer h3{
+    font-family: 'Orbitron', sans-serif;
+}
+.contact-info{
+    font-size: 16px;
+}
+
+.footer-menu {
+    position: relative;
+}
+.footer-menu .menu {
+    text-align: center;
+}
+.menu a{
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ffffff;
+}
+.footer-menu .menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.footer-menu .menu a:hover {
+    color: #FF6F61;
+}
+
+a:link{
+    text-decoration: none;
+    transition: all 313ms ease-out;
+}
+
+
+
+/*----cookies----*/
+
+#cookies_box{
+    position: fixed;
+    bottom: 0;
+    background: #DFEBDE;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cookies_box .container-cookies{
+    padding: 25px;
+    max-width: 90%;
+    display: flex;
+    font-size: 17px;
+}
+
+#cookies_box .container-cookies button{
+    border-radius: 8px;
+    margin-left: 25px;
+}
+#cookies_box .container-cookies button:hover{
+    background: #DFEBDE;
+}
+#cookies_box .container-cookies button:last-child{
+    margin-top: 10px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    header .imagenpr{
+        width: 372px;
+        height: 200px;
+    }
+    video{
+        margin-top: -27.5px;
+        height: 250px;
+        width: 400px;
+    }
+    #carousel .car-1{
+        height: 200px;
+    }
+    
+}
+
+@media only screen and (min-width: 425px){
+    footer{
+    border: 0px;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 425px){
+    footer{
+    border: 0px;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    }
+    
+    
+}

@@ -1,0 +1,342 @@
+body h1{
+    font-family: 'Orbitron', sans-serif;
+}
+.card:hover{
+    border: 5px solid white;
+}
+.img-1{
+    height: 284px;
+}
+.img-2{
+    height: 284px;
+}
+.img-3{
+    height: 284px;
+}
+.img-4{
+    height: 284px;
+}
+
+
+#gcoches img{
+    width: 100%;
+    height: 275px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.50);
+}
+#gcoches .col-lg-4{
+    position: relative;
+    padding: 20px;
+    transition: all 500ms ease-out;
+}
+
+.capa{
+    position: absolute;
+    margin-top: 20px;
+    top: 0;
+    width: 91%;
+    height: 87.5%;
+    border-radius: 5px;
+    background: rgba(0, 103, 123, 0.3);
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+}
+#gcoches .col-lg-4:hover .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+#gcoches .col-lg-4:hover .capa h4{
+    margin-top: 125px;
+}
+.capa h4{
+    color: white;
+    transition: all 500ms ease-out;
+}
+.capa p{
+    color: white;
+    font-size: 19px;
+}
+
+/*------------circuitos------------*/
+
+
+.imagen-i{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 100%;
+    height: 302px;
+}
+
+
+.imagen-d{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    width: 100%;
+    height: 302px;
+}
+
+
+.circuits .imagenn{
+    margin-bottom: 31px;
+}
+.circuits .cirp{
+    margin-top: 104px;
+}
+
+
+
+/*----------monoplazas--------*/
+
+
+#monop img{
+    width: 80%;
+    height: 130px;
+    display: block;
+    margin: auto;
+}
+
+
+
+#monop span{
+    font-size: 27px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 15px;
+}
+
+
+#monop .col-lg-5{
+    padding: 20px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    width: 600px;
+}
+
+/*--movimientos coches--*/
+.mono{
+    transition-property: transform;
+    transition-duration: 1.3s;
+    transition-timing-function: ease-in-out;
+}
+.monof1:hover .mono{
+    transform: translate(81px);
+}
+.monof2:hover .mono{
+    transform: translate(81px);
+}
+.monof3:hover .mono{
+    transform: translate(81px);
+}
+.monof4:hover .mono{
+    transform: translate(81px);
+}
+.monof5:hover .mono{
+    transform: translate(81px);
+}
+.monof6:hover .mono{
+    transform: translate(81px);
+}
+.monof7:hover .mono{
+    transform: translate(81px);
+}
+.monof8:hover .mono{
+    transform: translate(81px);
+}
+.monof9:hover .mono{
+    transform: translate(81px);
+}
+.monof10:hover .mono{
+    transform: translate(81px);
+}
+
+
+
+a:hover,a:visited{
+    color: black;
+}
+
+
+
+
+.monof1 a:hover{
+    color: orangered;
+}
+.monof2 a:hover{
+    color: turquoise;
+}
+.monof3 a:hover{
+    color: turquoise;
+}
+.monof4 a:hover{
+    color: black;
+}
+.monof5 a:hover{
+    color: blue;
+}
+.monof6 a:hover{
+    color: brown;
+}
+.monof7 a:hover{
+    color: red;
+}
+.monof8 a:hover{
+    color: grey;
+}
+.monof9 a:hover{
+    color: blue;
+}
+.monof10 a:hover{
+    color: green;
+}
+
+
+
+
+/*--footer--*/
+
+footer{
+    background-color: black;
+    position: relative;
+    padding: 55px 0 20px 0;
+    border: 9px solid red;
+    border-top-left-radius: 75px;
+    border-bottom: none;
+    border-right: none;
+}
+.footer-logo{
+    max-width: 225px;
+    max-height: 210px;
+    padding-top: 90px;
+}
+footer .footer-widget{
+    color: white;
+}
+footer h3{
+    font-family: 'Orbitron', sans-serif;
+}
+.contact-info p{
+    font-size: 16px;
+}
+
+.footer-menu {
+    position: relative;
+}
+.footer-menu .menu {
+    text-align: center;
+}
+.menu a{
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #ffffff;
+}
+.footer-menu .menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.footer-menu .menu a:hover {
+    color: #FF6F61;
+}
+a:link{
+    text-decoration: none;
+    transition: all 313ms ease-out;
+}
+
+
+@media only screen and (max-width: 768px){
+    .car-1{
+        height: 365px;
+    }
+    .img-1{
+        height: 255px;
+    }
+    .img-2{
+        height: 255px;
+    }
+    .img-3{
+        height: 255px;
+    }
+    .img-4{
+        height: 255px;
+    }
+    .capa{
+        width: 89%;
+    }
+    #monop img{
+        width: 100%;
+        height: 190px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 425px){
+    footer{
+    border: 0px solid red;
+    border-top: 8px solid red;
+    border-top-left-radius: 0px;
+    border-bottom: none;
+    border-right: none;
+    }
+    .img-1{
+        height: 265px;
+    }
+    .img-2{
+        height: 284px;
+    }
+    .img-3{
+        height: 210px;
+    }
+    .img-4{
+        height: 284px;
+    }
+    .car-1{
+        height: 310px;
+    }
+    
+    /*---monoplazas--*/
+
+    #monop .col-lg-5{
+        padding: 20px;
+        margin-bottom: 35px;
+        margin-left: 0px;
+        width: 600px;
+    }
+    
+
+
+
+    /*--MCoches--*/
+    .mono{
+        transition-property: none;
+    }
+    .monof1:hover .mono{
+        transform: none;
+    }
+    .monof2:hover .mono{
+        transform: none;
+    }
+    .monof3:hover .mono{
+        transform: none;
+    }
+    .monof4:hover .mono{
+        transform: none;
+    }
+    .monof5:hover .mono{
+        transform: none;
+    }
+    .monof6:hover .mono{
+        transform: none;
+    }
+    .monof7:hover .mono{
+        transform: none;
+    }
+    .monof8:hover .mono{
+        transform: none;
+    }
+    .monof9:hover .mono{
+        transform: none;
+    }
+    .monof10:hover .mono{
+        transform: none;
+    }
+}
